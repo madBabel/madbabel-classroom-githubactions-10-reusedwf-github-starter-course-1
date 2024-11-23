@@ -15,7 +15,7 @@ Basado en el ejercicio anterior, copiar el fichero 09-input-outputs.yml y empeza
        - `target`: environment, requerido, descripción: "Which environment the workflow will target".       
    - Este flujo de trabajo debe de tener dos jobs:
        - `callToWd`: que llamará a `10.a-io-workflow.yml`, proporcionando los inputs que recibe el evento workflow_dispatch
-       - `checkDeploying`: que se ejecutará solamente si el target es prod y salida del workflow llamado en el punto anterior empieza por 'Deploying', e imprimirá 'Check deploying Done' por consola
+       - `checkDeploying`: que se ejecutará solamente si salida del workflow llamado en el punto anterior empieza por 'Deploying', e imprimirá 'Check deploying Done' por consola
 
 
 ## Pruebas finales
